@@ -13,7 +13,7 @@
 
 #### 安装
 ```shell
-vue init liudake/webpack#vcyf projectName
+vue init liudake/webpack#vycf projectName
 ```
 #### 版本支持
 ```shell
@@ -32,7 +32,9 @@ vue 2.5.1  webpack 3.6  vue-cli 2.8
 |   |-- test.env.js                   //  单元测试环境配置
 |-- src                            // 源码目录
 |   |-- api                          // 接口
-|       |-- config.js                 // 接口配置文件
+|       |-- config-check.js           // 接口统一处理文件
+|       |-- config.js                 // 接口配置路径文件
+|       |-- constants.js              // 接口配置常量文件
 |       |-- http.js                   // 接口请求类型文件
 |       |-- interceptors.js           // 请求时拦截器和响应时拦截器
 |   |-- assets                       // 图片资源文件
